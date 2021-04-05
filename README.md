@@ -27,7 +27,7 @@ This service enable you to book a room.
 
 Requet body example with required attributs:
 
-```javascript`
+```javascript
 {
     "firstName": "John",
     "lastName": "zaaz",
@@ -54,12 +54,12 @@ Please check the service definition at http://localhost:8080/swagger-ui/index.ht
 
 # Run the SpringBoot application
 
-After cloned the project you can run the application using **mvnw spring-boot:run** (Run at project root)
+After cloned the project you can run the application using ***mvnw spring-boot:run*** (Run at project root)
 You also import the project in you favorite IDE and run it.
 
 There is an instance of CommandLineRunner used to initialise the H2 in-memory database to inject mock datas.
 
 #Run the test
 
-To run the test just run **mvnw test**
+To run the test just run ***mvnw test***
 
