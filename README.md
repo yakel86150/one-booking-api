@@ -54,8 +54,8 @@ Please check the service definition at http://localhost:8080/swagger-ui/index.ht
 
 # Run the SpringBoot application
 
-After cloned the project you can run the application using ***mvnw spring-boot:run*** (Run at project root)
-You also import the project in you favorite IDE and run it.
+After cloned the project you can run the application using ***mvnw spring-boot:run*** (Run at project root).
+You can also import the project in you favorite IDE and run it.
 
 There is an instance of CommandLineRunner used to initialise the H2 in-memory database to inject mock datas.
 
